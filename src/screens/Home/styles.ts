@@ -14,7 +14,7 @@ export default StyleSheet.create({
     fontFamily: Fonts.semiBold,
   },
   headerContainer: {
-    paddingTop: 50,
+    paddingTop: 40,
     paddingHorizontal: 20,
     flexDirection: 'row',
     alignItems: 'center',
@@ -87,5 +87,68 @@ export default StyleSheet.create({
   },
   flatlist: {
     paddingStart: 20,
+  },
+  recommendedHeading: {
+    ...CommonStyle.hOneRegular,
+    paddingStart: 20,
+    backgroundColor: Colors.white,
+  },
+  recomContainer: {
+    backgroundColor: Colors.lightColor,
+    flex: 1,
+    borderRadius: 12,
+    overflow: 'hidden',
+    marginVertical: 10,
+    marginStart: 20,
+    elevation: 1,
+  },
+  productImage: {
+    width: '100%',
+    height: 150,
+    resizeMode: 'cover',
+  },
+  heartImage: {
+    position: 'absolute',
+    left: 10,
+    zIndex: 123,
+    top: 10,
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+  },
+  productDetails: {
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+  },
+  price: {
+    ...CommonStyle.bodyTwoSemiBold,
+  },
+  addCart: {
+    backgroundColor: Colors.primaryBlue,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 200,
+  },
+  priceContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 5,
+  },
+  marginEnd: {marginEnd: 20},
+  addCartBtn: {color: Colors.white},
+  cartItemsContainer: {
+    backgroundColor: Colors.primaryYellow,
+    borderRadius: 200,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: -12,
+    zIndex: 12,
+    marginEnd: -12,
+    marginStart: 12,
+  },
+  cartItems: {
+    ...CommonStyle.bodyTwoSemiBold,
+    color: Colors.white,
   },
 });

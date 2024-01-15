@@ -7,4 +7,6 @@ export default {
   secondaryYellow: '#FFC83A',
   lightColor: '#F8F9FB',
   placeHolderColor: '#8891A5',
+  bagColor: '#1E222B',
+  borderColor: '#EBEBFB',
 };
